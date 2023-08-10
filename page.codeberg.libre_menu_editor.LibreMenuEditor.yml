@@ -41,5 +41,5 @@ modules:
       - make flatpak
     sources:
       - type: git
-        tag: 2023-08-01
+        tag: 2023-08-10
         url: https://codeberg.org/libre-menu-editor/libre-menu-editor
