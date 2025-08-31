@@ -18,10 +18,11 @@ finish-args:
     # for using program as a .desktop file editor
   - --filesystem=xdg-data/applications:create
     # for reading and writing .desktop files in .local/share/applications
-  - --filesystem=xdg-data/xdg-desktop-portal
-    # to avoid unreachable symlink targets in .local/share/xdg-desktop-portal
   - --filesystem=xdg-config/mimeapps.list
     # for updating list of associated mimetypes
+  - --filesystem=xdg-data/xdg-desktop-portal:ro
+      # for reading .desktop files in .local/share/xdg-desktop-portal/applications
+      # for showing icons of .desktop files created through xdg-desktop-portal
   - --filesystem=xdg-data/flatpak:ro
     # for reading .desktop files in .local/share/flatpak/exports/share/applications
     # to avoid unreachable symlink targets in .local/share/flatpak
