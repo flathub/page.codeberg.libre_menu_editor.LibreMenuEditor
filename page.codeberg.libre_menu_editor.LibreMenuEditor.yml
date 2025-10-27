@@ -1,6 +1,6 @@
 app-id: page.codeberg.libre_menu_editor.LibreMenuEditor
 runtime: org.gnome.Platform
-runtime-version: "48"
+runtime-version: "49"
 sdk: org.gnome.Sdk
 command: libre-menu-editor
 finish-args:
@@ -49,5 +49,5 @@ modules:
       - make flatpak
     sources:
       - type: git
-        tag: v1.9.4
+        tag: v1.10.0
         url: https://codeberg.org/libre-menu-editor/libre-menu-editor
